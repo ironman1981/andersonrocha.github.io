@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset = "UTF-8">
+	<style>
+		div.pagina{
+			width: 100%;
+			border: 1px solid gray;
+			background-color: #eeeeee;
+		}
+		
+		header, footer{
+			padding: 1em;
+			color: white;
+    		background-color: black;
+    		clear: left;
+   		 	text-align: center;
+		}
+		
+		nav{
+			float: left;
+    		max-width: 160px;
+    		margin: 0;
+    		padding: 1em;
+		}
+		
+		nav ul, article ul {
+    		list-style-type: none;
+    		padding: 0;
+		}
+		
+		nav ul li{
+			padding: 22px;
+		}
+		
+	 	nav ul li a img:hover {
+   		 	background-color: White;
+		}
+		
+		article {
+   		 	margin-left: 170px;
+   		 	border-left: 1px solid gray;
+    		padding: 1em;
+    		overflow: hidden;
+		}
+		
+		h1{
+			font-family: 'Raleway', sans-serif;
+		}	
+	</style>
+</head>
+<body style="margin-right: 160px; margin-left: 160px;">
+	<div class = "pagina">
+		<header>
+			<h1>Anderson Bezerra da Rocha</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html"><img src="_imagens/casa.png" title="Home" width="100px" height="100px"></a></li>
+				<li><a href = "profissional.html"><img src="_imagens/profissional.png" title="Profissional" width="100px" height="100px"></a></li>
+				<li><a href = "links.html"><img src="_imagens/link.png" title="Links"  width="100px" height="100px"></a></li>
+				<li><a href = "lazer.html"><img src="_imagens/game.png" title="Lazer"  width="100px" height="100px"></a></li>
+			</ul>
+		</nav>
+		
+		<article>
+			<h1>Contato</h1>
+			<ul>
+				<li><img src= "_imagens/location.png" width="100px" height="100px" ><p>Natal, Rio Grande do Norte</p></li>
+				<li><img src= "_imagens/telephone.png" width="100px" height="100px"><p>+84 98895 5125</p></li>
+				<li><img src= "_imagens/Whatsapp.png" width="100px" height="100px"><p>+84 99620 3450</p></li>
+				<li><img src= "_imagens/E-mail.png" width="100px" height="100px"><p>anderson_br81@hotmail.com</p></li>
+			</ul>
+			<h3>Não deixe de entrar em contato!</h3>
+			<form action="/action_page.php" autocomplete="on">
+  				First name:<input type="text" name="fname"><br>
+  				Last name: <input type="text" name="lname"><br>
+ 				E-mail: <input type="email" name="email" autocomplete="off"><br>
+  				<input type="submit">
+			</form>
+		</article>
+		
+		<footer>Copyright &copy; Anderson Rocha <br>2018</footer>
+	</div>
+</body>
+</html>
